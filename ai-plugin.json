@@ -1,0 +1,19 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "contosotodo",
+  "description_for_model": "Plugin for finding todo items. Use it whenever a user asks about their todo items. Returns a list of todo items, with id, name and the completion state.",
+  "name_for_human": "Todo Items",
+  "description_for_human": "Find up-to-date, detailed todo items for a user.",
+  "api": {
+    "type": "openapi",
+    "url": "https://todoopenapi.azurewebsites.net/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "auth": {
+    "type": "none"
+  },
+  "logo_url": "https://todoopenapi.azurewebsites.net/logo.png",
+  "contact_email": "contact@contoso.com",
+  "legal_info_url": "https://todoopenapi.azurewebsites.net/legal/",
+  "privacy_policy_url": "https://todoopenapi.azurewebsites.net/privacy-policy"
+}

@@ -1,0 +1,5 @@
+{
+    "appService.preDeployTask": "publish-release",
+    "appService.deploySubpath": "bin\\Release\\net8.0\\publish",
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/6d2ed8d6-235f-4f35-b49f-5c60cab53c54/resourceGroups/appsvc_windows_centralus/providers/Microsoft.Web/sites/todoOpenApi"
+}

@@ -1,0 +1,180 @@
+{
+  "source_base_path": "C:/p/todoapi-docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TodoApi.Controllers.AiPluginController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TodoApi.Controllers.AiPluginController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TodoApi.Controllers.LogoController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TodoApi.Controllers.LogoController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TodoApi.Controllers.OpenApiYamlController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TodoApi.Controllers.OpenApiYamlController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TodoApi.Controllers.TodoItemsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TodoApi.Controllers.TodoItemsController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TodoApi.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TodoApi.Controllers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TodoApi.Migrations.InitialCreate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TodoApi.Migrations.InitialCreate.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TodoApi.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TodoApi.Migrations.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TodoApi.Models.TodoContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TodoApi.Models.TodoContext.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TodoApi.Models.TodoItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TodoApi.Models.TodoItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/TodoApi.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TodoApi.Models.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+    "version": "devPreview",
+    "$schema": "https://developer.microsoft.com/json-schemas/teams/vDevPreview/MicrosoftTeams.ResponseRenderingTemplate.schema.json",
+    "responseLayout": "list",
+    "responseCardTemplate": {
+        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+        "type": "AdaptiveCard",
+        "version": "1.5",
+        "body": [
+            {
+                "type": "Container",
+                "items": [
+                    {
+                        "type": "ColumnSet",
+                        "columns": [
+                            {
+                                "type": "Column",
+                                "width": "stretch",
+                                "items": [
+                                    {
+                                        "type": "TextBlock",
+                                        "text": "Id: ${if(id, id, 'N/A')}",
+                                        "wrap": true
+                                    },
+                                    {
+                                        "type": "TextBlock",
+                                        "text": "To do item: ${if(name, name, 'N/A')}",
+                                        "wrap": true
+                                    },
+                                    {
+                                        "type": "TextBlock",
+                                        "text": "Completed: ${if(isComplete, isComplete, 'N/A')}",
+                                        "wrap": true
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "width": "auto",
+                                "items": [
+                                  {
+                                    "type": "TextBlock",
+                                    "url": "${if(id, id, '')}",
+                                    "size": "Medium"
+                                  }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "FactSet",
+                        "facts": [
+                            {
+                                "title": "Id:",
+                                "value": "${if(id, id, 'N/A')}"
+                            },
+                            {
+                                "title": "To do item:",
+                                "value": "${if(name, name, 'N/A')}"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "previewCardTemplate": {
+        "title": "${if(name, name, 'N/A')}",
+        "subtitle": "${if(id, id, 'N/A')}"
+    }
+}

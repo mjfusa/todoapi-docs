@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: TodoApi.Controllers
+  commentId: N:TodoApi.Controllers
+  id: TodoApi.Controllers
+  children:
+  - TodoApi.Controllers.AiPluginController
+  - TodoApi.Controllers.LogoController
+  - TodoApi.Controllers.OpenApiYamlController
+  - TodoApi.Controllers.TodoItemsController
+  langs:
+  - csharp
+  - vb
+  name: TodoApi.Controllers
+  nameWithType: TodoApi.Controllers
+  fullName: TodoApi.Controllers
+  type: Namespace
+  assemblies:
+  - TodoApi
+references:
+- uid: TodoApi.Controllers.LogoController
+  commentId: T:TodoApi.Controllers.LogoController
+  href: TodoApi.Controllers.LogoController.html
+  name: LogoController
+  nameWithType: LogoController
+  fullName: TodoApi.Controllers.LogoController
+- uid: TodoApi.Controllers.AiPluginController
+  commentId: T:TodoApi.Controllers.AiPluginController
+  href: TodoApi.Controllers.AiPluginController.html
+  name: AiPluginController
+  nameWithType: AiPluginController
+  fullName: TodoApi.Controllers.AiPluginController
+- uid: TodoApi.Controllers.OpenApiYamlController
+  commentId: T:TodoApi.Controllers.OpenApiYamlController
+  href: TodoApi.Controllers.OpenApiYamlController.html
+  name: OpenApiYamlController
+  nameWithType: OpenApiYamlController
+  fullName: TodoApi.Controllers.OpenApiYamlController
+- uid: TodoApi.Controllers.TodoItemsController
+  commentId: T:TodoApi.Controllers.TodoItemsController
+  href: TodoApi.Controllers.TodoItemsController.html
+  name: TodoItemsController
+  nameWithType: TodoItemsController
+  fullName: TodoApi.Controllers.TodoItemsController
