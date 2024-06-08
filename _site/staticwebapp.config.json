@@ -1,4 +1,12 @@
 {
+  "routes": [
+    {
+      "route": "/*",
+      "allowedRoles": [
+        "custom"
+      ]
+    }
+  ],
   "responseOverrides": {
     "401": {
       "statusCode": 302,
