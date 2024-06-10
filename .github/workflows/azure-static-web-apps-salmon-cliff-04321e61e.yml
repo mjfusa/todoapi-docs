@@ -20,9 +20,9 @@ jobs:
           submodules: true
           lfs: false
       
-      - uses: actions/setup-dotnet@v1
-        with:
-          dotnet-version: '8.x'
+      # - uses: actions/setup-dotnet@v1
+      #   with:
+      #     dotnet-version: '8.x'
       
       - name: Build Documentation
         uses: nikeee/docfx-action@v1.0.0
