@@ -40,6 +40,11 @@
       "_appTitle": "TodoOpenAPI",
       "_enableSearch": false,
       "pdf": false
+    },
+    "sitemap": {
+      "baseUrl": "https://salmon-cliff-04321e61e.5.azurestaticapps.net/",
+      "priority": 0.1,
+      "changefreq": "monthly"
     }
   }
 }

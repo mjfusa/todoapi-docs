@@ -1,4 +1,9 @@
 {
+  "sitemap": {
+    "baseUrl": "https://salmon-cliff-04321e61e.5.azurestaticapps.net/",
+    "changefreq": "monthly",
+    "priority": 0.1
+  },
   "source_base_path": "C:/p/todoapi-docs",
   "xrefmap": "xrefmap.yml",
   "files": [
