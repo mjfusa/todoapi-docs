@@ -5,3 +5,77 @@ Get started API plugin
 https://learn.microsoft.com/en-us/copilot/plugins/get-started?source=recommendations
 
  https://learn.microsoft.com/en-us/azure/app-service/tutorial-connect-msi-sql-database?tabs=windowsclient%2Cefcore%2Cdotnetcore
+
+
+ 
+docfx-todo-api
+
+Documentation of the ToDo API
+https://salmon-cliff-04321e61e.5.azurestaticapps.net/api/TodoApi.Controllers.html
+
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://searchuxcdn.blob.core.windows.net/designerapp/images/DefaultMRTIcon.png",
+                            "size": "Small",
+                            "horizontalAlignment": "Center",
+                            "altText": "Result logo"
+                        }
+                    ],
+                    "height": "stretch"
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "[${title}](${URL})",
+                            "color": "Accent",
+                            "size": "Medium",
+                            "weight": "Bolder"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "**${LastModifiedBy}** modified {{DATE(${LastModifiedDateTime})}}",
+                            "spacing": "Small",
+                            "$when": "${LastModifiedBy!='' && LastModifiedDateTime!=''}"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Modified on {{DATE(${LastModifiedDateTime})}}",
+                            "spacing": "Small",
+                            "$when": "${LastModifiedBy=='' && LastModifiedDateTime!=''}"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "Modified by __${LastModifiedBy}__",
+                            "spacing": "Small",
+                            "$when": "${LastModifiedBy!='' && LastModifiedDateTime==''}"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "text": "${Description}",
+                            "wrap": true,
+                            "maxLines": 3,
+                            "spacing": "Medium"
+                        }
+                    ],
+                    "horizontalAlignment": "Center",
+                    "spacing": "Medium"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+}
